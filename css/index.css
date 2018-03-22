@@ -1,0 +1,168 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background: #ae0031;
+    height: 720px;
+    overflow: hidden;
+    width: 420px;
+    -webkit-app-region: drag;
+    -webkit-user-select: none;
+}
+
+#main {
+    background: #fd1f3f;
+    border-bottom: 1px solid #ff3244;
+    height: 720px;
+}
+
+.speaker {
+    padding-top: 50px;
+    text-align: center;
+}
+
+#main h1 {
+    color: #f4f4f4;
+    padding-right: 6px;
+    padding-top: 5px;
+    text-align: right;
+    text-indent: -10000px;
+}
+
+#main h1 img {
+    height: 31px;
+    width: 195px;
+}
+
+.button-sound {
+    text-align: center;
+    background-color: #d90023;
+    border-radius: 100%;
+    cursor: pointer;
+    height: 24px;
+    margin-top: 55px;
+    position: relative;
+    width: 24px;
+    box-shadow: 0 4px 0 #910023;
+    -webkit-app-region: no-drag;
+}
+
+.button-sound:hover {
+    box-shadow: 0 2px 0 #910023;
+    top: 2px;
+}
+
+.button-sound:active {
+    box-shadow: 0 0 0 #910023;
+    top: 5px;
+}
+
+.button-icon {
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: inline-block;
+    height: 30px;
+    left:-2px;
+    position: absolute;
+    top: -35px;
+    width: 30px;
+    -webkit-app-region: no-drag;
+}
+
+.button-sound:hover .button-icon{
+    top: -37px;
+}
+.button-sound:active .button-icon {
+    top: -40px;
+}
+
+
+.button-shortcut {
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    font-size: 10px;
+    color: #910023;
+}
+
+.button-sound:hover .button-shortcut{
+    top: 28px;
+}
+.button-sound:active .button-shortcut {
+    top: 25px;
+}
+
+
+
+
+.buttons {
+    width: 100%;
+    padding: 1px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.button-wrap {
+    padding: 0 2px;
+    width: 48px;
+    height: 84px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.settings,
+.close {
+    cursor: pointer;
+    display: inline-block;
+    height: 32px;
+    position: absolute;
+    text-indent: -10000px;
+    top: 6px;
+    width: 32px;
+    z-index: 1;
+
+    -webkit-app-region: no-drag;
+}
+
+.settings {
+    background: transparent url("../img/settings.png") no-repeat 4px 4px;
+    background-size: 24px 24px;
+    right: 38px;
+}
+
+.close {
+    background: transparent url("../img/close.png") no-repeat 4px 4px;
+    background-size: 24px 24px;
+    right: 6px;
+}
+
+.speaker-box {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.speaker-hole {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 -2px 1px rgba(255, 255, 255, 0.4);
+}
+
+.full-w {
+    width: 100%;
+}

@@ -1,0 +1,46 @@
+{
+  "author": "Lorezz",
+  "license": "WTFPL",
+  "name": "StupidSoundMachine",
+  "version": "1.0.0",
+  "description": "A Stupid Sound Machine",
+  "main": "main.js",
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "start": "npm install && electron .",
+    "pack": "build --dir",
+    "linux":"./node_modules/.bin/electron-packager ./ SoundMachine --platform=linux --arch=x64 --out ~/Desktop/linux --icon=img/icon.icns --background=build/background.png --overwrite=true",
+    "package": "./node_modules/.bin/electron-packager ./ SoundMachine --platform=darwin --arch=x64 --out ~/Desktop/dist --icon=img/icon.icns --background=build/background.png --overwrite=true"
+  },
+  "build": {
+    "appId": "me.lorezz.soundmachine",
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    }
+  },
+  "devDependencies": {
+    "electron": "latest",
+    "electron-builder": "latest",
+    "electron-packager": "latest"
+  },
+  "dependencies": {
+    "nconf": "^0.10.0"
+  }
+}

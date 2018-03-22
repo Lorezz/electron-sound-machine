@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="60px" height="60px" viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
+<title>Turntable</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="Icons" transform="translate(-960.000000, -1677.000000)">
+		<g id="Group" transform="translate(961.000000, 1678.000000)">
+			
+				<polygon id="Stroke-3132" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="
+				5,55 4,54 4,52 5,51 7,51 8,52 8,54 7,55 			"/>
+			
+				<polygon id="Stroke-3134" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="
+				12,55 11,54 11,52 12,51 14,51 15,52 15,54 14,55 			"/>
+			
+				<polygon id="Stroke-3136" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="
+				19,55 18,54 18,52 19,51 21,51 22,52 22,54 21,55 			"/>
+			
+				<polygon id="Stroke-3138" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="
+				26,55 25,54 25,52 26,51 28,51 29,52 29,54 28,55 			"/>
+			<path id="Stroke-3164" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" d="M51,40v5"/>
+			<path id="Stroke-3166" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" d="M51,34v3"/>
+			<path id="Stroke-3168" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" d="M54,7c0,1.657-1.343,3-3,3
+				s-3-1.343-3-3s1.343-3,3-3S54,5.343,54,7L54,7z"/>
+			<path id="Stroke-3170" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" d="M33,24c0,4.971-4.029,9-9,9
+				s-9-4.029-9-9s4.029-9,9-9S33,19.029,33,24L33,24z"/>
+			<path id="Stroke-3172" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" d="M28,24c0,2.209-1.791,4-4,4
+				s-4-1.791-4-4s1.791-4,4-4S28,21.791,28,24L28,24z"/>
+			<path id="Stroke-3202" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" d="M58,48H0V3.503
+				C0,1.568,1.568,0,3.503,0h50.994C56.432,0,58,1.568,58,3.503V48L58,48z"/>
+			<path id="Stroke-3204" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" d="M0,48v6.497
+				C0,56.432,1.568,58,3.503,58h50.994C56.432,58,58,56.432,58,54.497V48H0L0,48z"/>
+			<polygon id="Stroke-3383" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" points="48,37 54,37 54,40 
+				48,40 			"/>
+			<polygon id="Stroke-3387" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" points="41.137,37.691 
+				38.309,34.864 43.257,29.914 46.086,32.743 			"/>
+			<polyline id="Stroke-3389" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" points="44.672,31.328 51,25 
+				51,7 			"/>
+			<path id="Stroke-3391" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" d="M38.309,34.864l4.721-4.722
+				C43.654,28.206,44,26.144,44,24c0-11.046-8.954-20-20-20S4,12.954,4,24s8.954,20,20,20c6.4,0,12.086-3.02,15.746-7.697
+				L38.309,34.864L38.309,34.864z"/>
+		</g>
+	</g>
+</g>
+</svg>

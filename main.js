@@ -265,7 +265,7 @@ function createTray() {
       }
     }
   ];
-  const tray = new Tray(path.join(__dirname,"./img/tray-icon-alt_bis.png"));
+  const tray = new Tray(path.join(__dirname,"./img/tray.png"));
   const contextMenu = Menu.buildFromTemplate(trayMenuTemplate);
   tray.setToolTip("Sound Machine.");
   tray.setContextMenu(contextMenu);

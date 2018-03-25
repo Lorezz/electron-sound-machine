@@ -9,8 +9,8 @@
     "postinstall": "install-app-deps",
     "start": "npm install && electron .",
     "pack": "build --dir",
-    "linux":"./node_modules/.bin/electron-packager ./ SoundMachine --platform=linux --arch=x64 --out ~/Desktop/linux --icon=img/icon.icns --background=build/background.png --overwrite=true",
-    "package": "./node_modules/.bin/electron-packager ./ SoundMachine --platform=darwin --arch=x64 --out ~/Desktop/dist --icon=img/icon.icns --background=build/background.png --overwrite=true"
+    "linux":"./node_modules/.bin/electron-packager ./ SoundMachine --platform=linux --arch=x64 --out ~/Desktop/linux --icon=build/icon.png --background=build/background.png --overwrite=true",
+    "package": "./node_modules/.bin/electron-packager ./ SoundMachine --platform=darwin --arch=x64 --out ~/Desktop/dist --icon=build/icon.icns --background=build/background.png --overwrite=true"
   },
   "build": {
     "appId": "me.lorezz.soundmachine",
